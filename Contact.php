@@ -65,7 +65,7 @@ include "header.php";
                 id="feedback"
                 value="New FeedBack Email from Website !!"
               />
-              <label for="feedback"> Feed Back </label>
+              <label for="feedback"> Feedback </label>
             </div>
           </div>
         </div>

@@ -30,13 +30,13 @@ include "header.php";
             </a>
           </p>
         </div>
-        <div class="project-card">
+       <!--  <div class="project-card">
           <img
             class="project-image"
             src="src/images/Project_2.jpg"
             alt="Project-2 Image"
           />
-          <h3>Alarm-app With NFC</h3>
+         <h3>Alarm-app With NFC</h3>
           <p class="subtext">
             Thi is my final year project in university.</br> 
             We developed an app using Kotlin and JAVA for android. </br>
@@ -52,7 +52,7 @@ include "header.php";
             >
           </p>
         </div>
-        <!--<div class="project-card">
+      <div class="project-card">
           <img src="project-image" alt="Project-3 Image" />
           <h3>Project Three</h3>
           <p class="subtext">
