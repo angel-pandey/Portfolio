@@ -1,0 +1,247 @@
+/* Body Generic Styling */
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #1c1d25;
+  color: #ffffff;
+  margin: auto;
+  width: 90%;
+}
+/*Styling about-me section of the home page */
+#about-me {
+  background-color: #424242;
+  color: inherit;
+  height: 50vh;
+}
+
+/*Creatign the landing page design*/
+.hero {
+  background-color: #1c1d25;
+  height: 100vh;
+  color: #ffffff;
+  font-size: 40px;
+}
+
+/*Nav bar design*/
+.nav-bar {
+  background-color: #1c1d25;
+  height: fit-content;
+  color: #ff4057;
+  font-size: 40px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+.navbar-item {
+  text-decoration: none !important;
+  color: #ff4057 !important;
+}
+/* Desigining the ul */
+ul {
+  display: flex;
+  list-style-type: none;
+  width: fit-content;
+  justify-content: space-around;
+  font-size: 30px;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+ul.show {
+  display: block;
+}
+li {
+  text-decoration: none;
+}
+
+/*end of nav bar */
+
+/* Footer css start */
+
+#footer {
+  position: fixed; /*ensure that footer is visible at all time */
+  bottom: 0; /*Footor stays at the end of the page*/
+  width: 90%;
+  padding: 2rem;
+  height: 2.5rem; /*footer height*/
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+/*footer css end */
+
+
+/*index page font design start */
+.hero-text-h1 {
+  font-size: 90px;
+  margin: 0px;
+}
+
+.information-h2 {
+  font-size: 50px;
+}
+
+.hero-text-p {
+  margin: 0px;
+  font-size: 30px;
+  font-weight: 300;
+}
+/*index page font design end */
+
+.subtext {
+  font-size: 15px;
+  font-weight: 300;
+  padding: 1rem;
+}
+
+.hero-area {
+  display: flex;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-text {
+  margin-left: 80px;
+  margin-bottom: 200px;
+}
+
+.button {
+  width: 200px;
+  height: 55px;
+  border-radius: 30px;
+  background-color: coral;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 300;
+  padding-top: 5px;
+  margin-top: 20px;
+}
+
+.button:hover {
+  background-color: #ef744b;
+}
+
+.button:active {
+  background-color: #a9a9a9a9;
+  color: #80808080;
+}
+
+.socials {
+  padding-bottom: 200px;
+}
+
+.logo {
+  height: 80px;
+  margin: 30px;
+}
+
+.social {
+  margin: 20px;
+}
+
+.sub-section {
+  display: flex;
+  justify-content: space-around;
+  padding: 80px;
+}
+
+.sub-section-alternative {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 80px;
+}
+
+.headshot {
+  width: 300px;
+  border-radius: 150px;
+}
+
+.headshot-container {
+  display: flex;
+  align-items: center;
+}
+.project-card {
+  width: fit-content;
+  box-shadow: 5px 5px 20px #808080;
+  border-radius: 30px;
+  margin: 10px;
+  padding: 1rem;
+}
+.project-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 3rem;
+  padding-top: 2rem;
+}
+
+.project-image {
+  margin-top: 25px;
+  width: 500px;
+  height: auto;
+}
+
+hr {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.project-link {
+  text-decoration: none;
+  color: #ef744b;
+}
+
+a {
+  text-decoration: none !important;
+  color: inherit;
+}
+
+.hamburger {
+  display: none;
+}
+.hamburger:focus {
+  outline: 0;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+@media only screen and (max-width: 1000px) {
+  .project-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .hamburger {
+    display: block;
+    border: 0;
+    background-color: transparent;
+    color: white;
+    font-size: 30px;
+    margin: 20px;
+    align-self: flex-end;
+  }
+  ul {
+    display: none;
+    background-color: #2b2c38;
+    margin: 0px;
+  }
+  ul.show {
+    display: block;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: #2b2c38;
+  }
+
+  .logo {
+    display: none;
+  }
+}
+.project-container h3 {
+  padding-top: 2rem;
+}
