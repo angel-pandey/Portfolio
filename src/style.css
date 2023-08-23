@@ -10,7 +10,7 @@ body {
 #about-me {
   background-color: #424242;
   color: inherit;
-  height: 50vh;
+  height: auto;
 }
 
 /*Creatign the landing page design*/
