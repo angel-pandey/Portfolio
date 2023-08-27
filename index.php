@@ -69,7 +69,25 @@ include "header.php";
         <p>
         I am an experienced IT professional with expertise in IT Support, Office 365, Azure, DNS, and Domain Server Management. I also have strong skills in Microsoft Excel, PowerPoint, Word, and overall Office 365. With a bachelor&#39;s degree in Information Technology from Victoria University, I bring a solid foundation in networking, Windows Server, and Virtualization.
         </p>
-        <p> Lean more about My Projects here:  <a style="color:inherit" href="projects.php"> <div class="button">My Projects</div> </a>
+        <div
+          style="background:white!important;
+           width: fit-content; 
+           height: fit-content" 
+           >
+          <div 
+            data-iframe-width="150" 
+            data-iframe-height="270" 
+            data-share-badge-id="54a6a72c-2c44-4faf-b0ba-02d3b7f3a8d4" 
+            data-share-badge-host="https://www.credly.com">
+          </div>
+        </div>
+        <p> Lean more about My Projects here:
+        </p>  
+        <a style="color:inherit" href="projects.php"> 
+          <div class="button">
+          My Projects
+          </div> 
+        </a>
 
       </div>
       <div class="headshot-container">
