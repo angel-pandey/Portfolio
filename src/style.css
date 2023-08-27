@@ -220,9 +220,9 @@ html{
     border: 0;
     background-color: transparent;
     color: white;
-    font-size: 30px;
+    font-size: 58px;
     margin: 20px;
-    align-self: center;
+    align-self: baseline;
   }
   ul {
     display: none;
@@ -234,11 +234,11 @@ html{
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
+    margin-top: 90px;
   }
 
   nav {
     display: flex;
-    /* flex-direction: column-reverse; */
     background-color: #2b2c38;
   }
 
