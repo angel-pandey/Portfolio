@@ -222,27 +222,39 @@ html{
     color: white;
     font-size: 30px;
     margin: 20px;
-    align-self: flex-end;
+    align-self: center;
   }
   ul {
     display: none;
     background-color: #2b2c38;
-    margin: 0px;
+    margin: 3px;
   }
   ul.show {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
   }
 
   nav {
     display: flex;
-    flex-direction: column-reverse;
+    /* flex-direction: column-reverse; */
     background-color: #2b2c38;
   }
 
-  .logo {
-    display: none;
-  }
+
 }
 .project-container h3 {
   padding-top: 2rem;
+}
+
+.Privacy-head,.Privacy-sub-head,.Privacy-content{
+display: flex;
+justify-content: left;
+text-align: left;
+flex-wrap: wrap;
+}
+.Privacy-head{
+  justify-content: center;
+  text-align: center;
 }
